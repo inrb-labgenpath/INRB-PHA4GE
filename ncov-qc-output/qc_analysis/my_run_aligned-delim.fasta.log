@@ -1,0 +1,85 @@
+IQ-TREE multicore version 1.6.12 for Linux 64-bit built Mar 16 2020
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    inrblabgenpath-Alienware-m15-R7-AMD (AVX2, FMA3, 62 GB RAM)
+Command: iqtree -ninit 2 -n 2 -me 0.05 -nt 1 -s qc_analysis/my_run_aligned-delim.fasta -m GTR
+Seed:    889002 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Wed Nov  2 18:02:17 2022
+Kernel:  AVX+FMA - 1 threads (16 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 16 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file qc_analysis/my_run_aligned-delim.fasta ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 14 sequences with 29903 columns, 177 distinct patterns
+53 parsimony-informative, 58 singleton sites, 29792 constant sites
+                                                                                  Gap/Ambiguity  Composition  p-value
+   1  MN908947.3                                                                          0.00%    passed     93.56%
+   2  22COV-RDC-782_DELIM-CSSHIYOVLKJDZNNDDQXF_ARTIC_DELIM-CSSHIYOVLKJDZNNDDQXF_medaka    6.49%    passed     99.40%
+   3  22COV-RDC-640                                                                       1.27%    passed     99.83%
+   4  22COV-RDC-635                                                                       3.83%    passed     98.32%
+   5  22COV-RDC-818                                                                       6.01%    passed     99.45%
+   6  22COV-RDC-781_DELIM-CSSHIYOVLKJDZNNDDQXF_ARTIC_DELIM-CSSHIYOVLKJDZNNDDQXF_medaka    6.06%    passed     99.75%
+   7  22COV-RDC-650                                                                       2.80%    passed     98.75%
+   8  22COV-RDC-903                                                                       5.61%    passed     99.62%
+   9  22COV-RDC-806_DELIM-CSSHIYOVLKJDZNNDDQXF_ARTIC_DELIM-CSSHIYOVLKJDZNNDDQXF_medaka    6.56%    passed     99.68%
+  10  22COV-RDC-912                                                                       5.33%    passed     99.21%
+  11  22COV-RDC-208                                                                       3.50%    passed     99.39%
+  12  22COV-RDC-221                                                                       5.04%    passed     99.35%
+  13  22COV-RDC-355                                                                       3.50%    passed     99.43%
+  14  22COV-RDC-368                                                                       4.55%    passed     99.32%
+****  TOTAL                                                                               4.32%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.000 seconds
+
+NOTE: 0 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.500)
+1. Initial log-likelihood: -41663.445
+2. Current log-likelihood: -41609.568
+Optimal log-likelihood: -41609.540
+Rate parameters:  A-C: 0.81748  A-G: 2.41056  A-T: 0.24637  C-G: 0.36809  C-T: 3.74366  G-T: 1.00000
+Base frequencies:  A: 0.298  C: 0.183  G: 0.196  T: 0.322
+Parameters optimization took 2 rounds (0.003 sec)
+Computing ML distances based on estimated model parameters... 0.000 sec
+Computing BIONJ tree...
+0.000 seconds
+Log-likelihood of BIONJ tree: -41609.491
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+
+Do NNI search on 2 best initial trees
+BETTER TREE FOUND at iteration 1: -41609.490
+Finish initializing candidate tree set (4)
+Current best tree score: -41609.490 / CPU time: 0.001
+Number of iterations: 2
+TREE SEARCH COMPLETED AFTER 2 ITERATIONS / Time: 0h:0m:0s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.050)
+1. Initial log-likelihood: -41609.490
+Optimal log-likelihood: -41609.478
+Rate parameters:  A-C: 0.81687  A-G: 2.41161  A-T: 0.23229  C-G: 0.36857  C-T: 3.74457  G-T: 1.00000
+Base frequencies:  A: 0.298  C: 0.183  G: 0.196  T: 0.322
+Parameters optimization took 1 rounds (0.000 sec)
+BEST SCORE FOUND : -41609.478
+Total tree length: 0.004
+
+Total number of iterations: 2
+CPU time used for tree search: 0.001 sec (0h:0m:0s)
+Wall-clock time used for tree search: 0.001 sec (0h:0m:0s)
+Total CPU time used: 0.009 sec (0h:0m:0s)
+Total wall-clock time used: 0.009 sec (0h:0m:0s)
+
+Analysis results written to: 
+  IQ-TREE report:                qc_analysis/my_run_aligned-delim.fasta.iqtree
+  Maximum-likelihood tree:       qc_analysis/my_run_aligned-delim.fasta.treefile
+  Likelihood distances:          qc_analysis/my_run_aligned-delim.fasta.mldist
+  Screen log file:               qc_analysis/my_run_aligned-delim.fasta.log
+
+Date and Time: Wed Nov  2 18:02:17 2022

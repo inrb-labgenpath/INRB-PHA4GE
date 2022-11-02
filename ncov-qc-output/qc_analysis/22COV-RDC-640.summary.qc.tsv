@@ -1,0 +1,2 @@
+sample	run_name	num_consensus_snvs	num_consensus_n	num_consensus_iupac	num_variants_snvs	num_variants_indel	num_variants_indel_triplet	mean_sequencing_depth	median_sequencing_depth	qpcr_ct	collection_date	num_weeks	scaled_variants_snvs	genome_completeness	qc_pass	lineage	lineage_notes	scorpio_call	watch_mutations
+22COV-RDC-640	my_run	70	354	0	67	6	3	4012.4	3914	NA	NA	NA	NA	0.9882	PASS	BA.2	alt/ref/amb:64/0/0	Omicron (BA.2-like)	S:G142D,S:K417N,S:Q493R,S:N501Y,S:P681H,S:P681H

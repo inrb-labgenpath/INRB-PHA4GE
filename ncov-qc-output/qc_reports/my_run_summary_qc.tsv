@@ -1,0 +1,14 @@
+sample	run_name	num_consensus_snvs	num_consensus_n	num_consensus_iupac	num_variants_snvs	num_variants_indel	num_variants_indel_triplet	mean_sequencing_depth	median_sequencing_depth	qpcr_ct	collection_date	num_weeks	scaled_variants_snvs	genome_completeness	qc_pass	lineage	lineage_notes	scorpio_call	watch_mutations
+22COV-RDC-208	my_run	54	1017	0	49	8	6	1786.2	1653	NA	NA	NA	NA	0.966	PASS	BA.1	alt/ref/amb:53/0/3	Omicron (BA.1-like)	S:del69-70,S:K417N,S:Q493R,S:N501Y,S:P681H,S:P681H
+22COV-RDC-221	my_run	51	1477	0	45	8	6	662.1	614	NA	NA	NA	NA	0.9506	PASS	BA.1	alt/ref/amb:50/0/6	Omicron (BA.1-like)	S:del69-70,S:K417N,S:Q493R,S:N501Y
+22COV-RDC-355	my_run	55	1016	0	50	8	6	1835.7	1724	NA	NA	NA	NA	0.966	PASS	BA.1	alt/ref/amb:53/0/3	Omicron (BA.1-like)	S:del69-70,S:K417N,S:Q493R,S:N501Y,S:P681H,S:P681H
+22COV-RDC-368	my_run	53	1331	0	47	8	6	1435.3	1205	NA	NA	NA	NA	0.9555	PASS	BA.1.17.2	alt/ref/amb:50/0/6	Omicron (BA.1-like)	S:del69-70,S:K417N,S:Q493R,S:N501Y
+22COV-RDC-635	my_run	71	1105	0	67	6	4	5032.1	4926	NA	NA	NA	NA	0.9631	PASS	BA.2	alt/ref/amb:64/0/0	Omicron (BA.2-like)	S:G142D,S:K417N,S:Q493R,S:N501Y,S:P681H,S:P681H
+22COV-RDC-640	my_run	70	354	0	67	6	3	4012.4	3914	NA	NA	NA	NA	0.9882	PASS	BA.2	alt/ref/amb:64/0/0	Omicron (BA.2-like)	S:G142D,S:K417N,S:Q493R,S:N501Y,S:P681H,S:P681H
+22COV-RDC-650	my_run	70	794	0	66	8	5	3633.5	3452	NA	NA	NA	NA	0.9735	PASS	BA.4.1	alt/ref/amb:64/0/0	Omicron (BA.4-like)	S:del69-70,S:G142D,S:K417N,S:L452R,S:N501Y,S:P681H,S:P681H
+22COV-RDC-781	my_run	69	1771	0	66	8	5	184.9	161	NA	NA	NA	NA	0.9408	PASS	BA.4.1	alt/ref/amb:62/1/1	Omicron (BA.4-like)	S:del69-70,S:G142D,S:K417N,S:L452R,S:N501Y,S:P681H,S:P681H
+22COV-RDC-782	my_run	69	1923	0	66	5	2	401.7	351	NA	NA	NA	NA	0.9357	PASS	BA.2	alt/ref/amb:62/0/2	Omicron (BA.2-like)	S:G142D,S:K417N,S:Q493R,S:N501Y,S:P681H,S:P681H
+22COV-RDC-806	my_run	71	1929	0	67	6	4	436.2	331	NA	NA	NA	NA	0.9355	PASS	BA.4.1	alt/ref/amb:62/0/2	Omicron (BA.4-like)	S:del69-70,S:G142D,S:K417N,S:L452R,S:N501Y,S:P681H,S:P681H
+22COV-RDC-818	my_run	69	1755	0	63	8	5	263.7	219	NA	NA	NA	NA	0.9413	PASS	BA.4.1	alt/ref/amb:60/0/3	Omicron (BA.4-like)	S:del69-70,S:G142D,S:K417N,S:L452R,S:N501Y
+22COV-RDC-903	my_run	68	1644	0	64	7	4	431.3	400	NA	NA	NA	NA	0.9451	PASS	BA.4.1	alt/ref/amb:62/0/2	Omicron (BA.4-like)	S:del69-70,S:G142D,S:K417N,S:L452R,S:N501Y,S:P681H,S:P681H
+22COV-RDC-912	my_run	69	1561	0	65	7	4	696.7	637	NA	NA	NA	NA	0.9478	PASS	BA.4.1	alt/ref/amb:62/0/2	Omicron (BA.4-like)	S:del69-70,S:G142D,S:K417N,S:L452R,S:N501Y,S:P681H,S:P681H
